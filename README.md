@@ -5,17 +5,16 @@
 
 
 # function el
-|---|
-| name | type | required | desc |
+| property | type | required | desc |
 |---|---|---|---|
 | a | tagname | required | html element tag name |
 | b | parent | optional | parent of this element |
 | c | textContent | optional | the text content of this element |
 | d | atttributes | optional | the attributes of this element |
 | e | event | optional | all of this element's event listeners |
-|---|
+| |
 | return | this element |
-|---|
+| |
 
 examples of use
 ===============
@@ -51,20 +50,17 @@ el({
 
 
 
-# dlg
-|===============================================================================================================|
-| function dlg													|
-|===============================================================================================================|
-| name		| type	| required	| default value	| desc							|
-|===============|=======|===============|===============|=======================================================|
-| title		| text	| optional	| title		| title of this popup					|
-| left		| px	| optional	| 32		| the left position of this component on the screen	|
-| top		| px	| optional	| 16		| the left position of this component on the screen	|
-| width		| px	| optional	| 300		| width of this component				|
-| height	| px	| optional	| 200		| height of this component				|
-|===============================================================================================================|
-| return	| this component										|
-|===============================================================================================================|
+# function dlg
+| property | type | required | default value | desc |
+|---|---|---|---|---|
+| title | text | optional | title | title of this popup |
+| left | px | optional | 32 | the left position of this component on the screen |
+| top | px | optional | 16 | the left position of this component on the screen |
+| width | px | optional | 300 | width of this component |
+| height | px | optional | 200 | height of this component |
+| |
+| return | this component |
+| |
 
 examples of use
 ===============
