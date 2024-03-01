@@ -1,6 +1,6 @@
 # m.js
 ```
-https://miftahul001.github.io/m/m.js
+<script src="https://miftahul001.github.io/m/m.js"></script>
 ```
 
 # m.js consists of two functions
