@@ -1,3 +1,8 @@
+# m.js
+```
+https://miftahul001.github.io/m/m.js
+```
+
 # m.js consists of two functions
 1. function el, DOM manipulation
 2. function dlg, dynamic popup for desktop browsers
