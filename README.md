@@ -3,20 +3,19 @@
 2. function dlg, dynamic popup for desktop browsers
 
 
-# el
-|===============================================================================|
-| function el									|
-|===============================================================================|
-| name	| type		| required  | desc					|
-|=======|===============|===========|===========================================|
-| a	| tagname	| required  | html element tag name			|
-| b	| parent	| optional  | parent of this element			|
-| c	| textContent	| optional  | the text content of this element		|
-| d	| atttributes	| optional  | the attributes of this element		|
-| e	| event		| optional  | all of this element's event listeners	|
-|===============================================================================|
-| return	| this element							|
-|===============================================================================|
+
+# function el
+|---|
+| name | type | required | desc |
+|---|---|---|---|
+| a | tagname | required | html element tag name |
+| b | parent | optional | parent of this element |
+| c | textContent | optional | the text content of this element |
+| d | atttributes | optional | the attributes of this element |
+| e | event | optional | all of this element's event listeners |
+|---|
+| return | this element |
+|---|
 
 examples of use
 ===============
