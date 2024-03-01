@@ -21,25 +21,25 @@
 examples of use
 ===============
 
-1.
+# 1.
 const a = el({a:'div', b:document.body})
 el({a:'button', b:a, c:'this is button', e:{click: a => { alert(a.target.textContent) } }})
 
 
 
-2.
+# 2.
 const a = el({a:'select', b:document.body, d:{ style:'border:none; padding:10px;' }, e:{ change: a => { alert(a.target.value) } } })
 el({a:'option', b:a, c:'first option', d:{value:1 } })
 el({a:'option', b:a, c:'second option', d:{value:2 } })
 el({a:'option', b:a, c:'third option', d:{value:'three' } })
 
 
-3.
+# 3.
 el({a:'input', b:document.body, d:{type:'text', id:'textid', name:'textname', placeholder:'write here'}})
 
 
 
-4.
+# 4.
 el({
 	a:'div',
 	b:document.body,
@@ -70,18 +70,18 @@ el({
 examples of use
 ===============
 
-1.
+# 1.
 dlg()
 
 
 
-2.
+# 2.
 const a = dlg({title:'my menu'})
 el({a:'button', b:a, c:'This button is in the popup' })
 
 
 
-3.
+# 3.
 const b = dlg({title:'custom popup'})
 b.parentElement.style.background = 'blue'		// change pupup style
 b.parentElement.children[0].style.background = 'yellow'	// change title style
@@ -89,7 +89,7 @@ b.parentElement.removeChild(a.previousElementSibling)	// remove close button
 
 
 
-4.
+# 4.
 - Click this popup to bring it to the top
 - Click drag the title of this popup to move it
 - This popup can be resized, by clicking and dragging the bottom right corner
