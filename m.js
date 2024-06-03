@@ -1,6 +1,8 @@
 /* m.js
   * https://miftahul001.github.io/m/m.js
-  * Copyright (c) 2022 Miftahul Munir; Licensed MIT */
+  * Copyright (c) 2022 Miftahul Munir; Licensed MIT
+  */
+
 const el = a=>{
 	a.g = [
 		document,
