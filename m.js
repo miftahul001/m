@@ -153,25 +153,20 @@ const dlg = a=>{
 	})
 }
 const mmv1 = a => {
-	a = [a, 0,0, b => {
-		b = b || a[24][b[10]]
-		b[a[18]]();
-		(b=>{b[0]>5&&(a[0][a[22]][a[11]]=b[0]+a[19]);b[1]>5&&(a[0][a[22]][a[23]]=b[1]+a[19])})([a[0][a[12]] + b[a[7]] - a[1], a[0][a[13]] + b[a[8]] - a[2]])
-		a[1] = b[a[7]]
-		a[2] = b[a[8]]
-	}, b => {
-		a[9][a[20]](a[15], a[3])
-		a[9][a[20]](a[16], a[4])
+	a=[a,0,0,b=>{b=b||a[29][b[10]]
+		b[a[22]]();(b=>{b[0]>5&&(a[0][a[26]][a[13]]=b[0]+a[23]);b[1]>5&&(a[0][a[26]][a[27]]=b[1]+a[23])})([a[0][a[14]]+b[a[7]]-a[1],a[0][a[15]]+b[a[8]]-a[2]])
+		a[1]=b[a[7]]
+		a[2]=b[a[8]]
+	},b=>{a[9][a[24]](a[19],a[3])
+		a[9][a[24]](a[20],a[4])
 	},
-	'addEventListener', 'appendChild', 'clientX', 'clientY', document, 'event', 'left', 'offsetLeft', 'offsetTop', 'onmousedown', 'mousemove', 'mouseup', 'parentElement', 'preventDefault', 'px', 'removeEventListener', 'stopPropagation', 'style', 'top', window]
-	a[0][a[14]] = b => {
-		b = b || a[24][b[10]]
-		b[a[18]]()
-		b[a[21]]()
-		a[0][a[17]][a[6]](a[0])
-		a[1] = b[a[7]]
-		a[2] = b[a[8]]
-		a[9][a[5]](a[15], a[3])
-		a[9][a[5]](a[16], a[4])
-	}
+	'addEventListener', 'appendChild', 'clientX', 'clientY', document, 'event', 'getBoundingClientRect', 'height', 'left', 'offsetLeft', 'offsetTop', 'offsetX', 'offsetY', 'onmousedown', 'mousemove', 'mouseup', 'parentElement', 'preventDefault', 'px', 'removeEventListener', 'stopPropagation', 'style', 'top', 'width', window]
+	a[0][a[18]]=b=>{(b=>{b[b[3][a[28]]-b[2][a[16]]>33&&b[3][a[12]]-b[2][a[17]]>33?0:1](b[2])})([b=>{b[a[22]]()
+		b[a[25]]()
+		a[0][a[21]][a[6]](a[0])
+		a[1]=b[a[7]]
+		a[2]=b[a[8]]
+		a[9][a[5]](a[19],a[3])
+		a[9][a[5]](a[20],a[4])
+	},b=>{b[a[25]]()},b=b||a[29][b[10]],a[0][a[11]]()])}
 }
